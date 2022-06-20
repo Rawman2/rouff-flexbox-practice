@@ -103,7 +103,7 @@ h3:nth-child(2) {
     .container {
         display: flex;
         flex-direction: column;
-        margin: 30px;
+        margin: 30px auto;
         align-items: center;
         flex-wrap: wrap;
 
@@ -172,5 +172,7 @@ h3:nth-child(2) {
         margin-top: 10px;
     }
 }
+@media (max-width: 1000px) {
 
+}
 
